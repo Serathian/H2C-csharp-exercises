@@ -6,8 +6,11 @@ namespace exercise_12
   {
     public static void Main(string[] args)
     {
-      // Write your code here:
-
+      //Hey Tero,
+      //I'm guessing this is to teach us the types of veriables?
+      //Does this count too? :D
+      Console.WriteLine("Give a number!");
+            Console.WriteLine($"{Console.ReadLine()}");
     }
   }
 }
