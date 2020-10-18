@@ -8,7 +8,7 @@ namespace exercise_14
     {
       Console.WriteLine("Give me the truth!");
       // Write your code here:
-
+     Console.WriteLine($"{Console.ReadLine()}");
     }
   }
 }
