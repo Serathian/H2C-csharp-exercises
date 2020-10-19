@@ -8,7 +8,9 @@ namespace exercise_42
     {
 
       // Write your code here:
-    
+        Console.WriteLine("Enter two numbers... ");
+            var data = Console.ReadLine().Split(' ');
+            Console.WriteLine($"{Math.Sqrt(Convert.ToInt32(data[0]))} and {Math.Sqrt(Convert.ToInt32(data[1]))} ");
     }
   }
 }
