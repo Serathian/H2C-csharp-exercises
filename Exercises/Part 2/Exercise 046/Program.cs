@@ -8,7 +8,13 @@ namespace exercise_46
     {
 
       // Write your code here:
+      Console.WriteLine("Give a number");
+            int num = Convert.ToInt32(Console.ReadLine());
 
+            for(int i = num; i <= 100; i++)
+            {
+                Console.WriteLine($"{i}");
+            }
     }
   }
 }
