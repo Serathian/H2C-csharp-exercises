@@ -43,6 +43,8 @@ namespace exercise_30
             case int n when (n >= 100):
                     Console.WriteLine("Outstanding!");
                     break;
+            default:
+                    break;
                     
             }
     }
