@@ -8,7 +8,9 @@ namespace exercise_41
     {
 
       // Write your code here:
-      
+      Console.WriteLine("Write a number..");
+            
+      Console.WriteLine(Math.Pow(Convert.ToDouble(Console.ReadLine()), 2));
     }
   }
 }
