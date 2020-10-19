@@ -9,11 +9,11 @@ namespace exercise_27
       // Write your code here:
       Console.WriteLine("Give a number: ");
       int number = Convert.ToInt32(Console.ReadLine());
-            if (number%2 == 0){
-                Console.WriteLine("Number is even");
+            if (number <= 0){
+                Console.WriteLine("Number is Positive");
             }
             else{
-            Console.WriteLine("Number is odd");
+            Console.WriteLine("Number is negative");
                     }
     }
   }

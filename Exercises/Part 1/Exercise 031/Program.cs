@@ -7,21 +7,14 @@ namespace exercise_31
     public static void Main(string[] args)
     {
       // Write your code here:
-      Console.WriteLine("Please enter 2 numbers, Seperated by spaces.");
-      var replyNumbers = Console.ReadLine();
-            var data = replyNumbers.Split();
-            double numberOne = Convert.ToInt32(data[0]);
-            double numberTwo = Convert.ToInt32(data[1]);
-
-        if (numberOne > numberTwo){
-            Console.WriteLine($"The larger number is {numberOne}");
+      Console.WriteLine("Give a number: ");
+      int number = Convert.ToInt32(Console.ReadLine());
+            if (number%2 == 0){
+                Console.WriteLine("Number is even");
             }
-        else if (numberTwo > numberOne){
-            Console.WriteLine($"The larger number is {numberTwo}");
-            }
-        else {
-            Console.WriteLine("They are equal!");
-            }
+            else{
+            Console.WriteLine("Number is odd");
+                    }
     }
   }
 }
