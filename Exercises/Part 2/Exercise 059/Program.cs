@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Linq;
 
 namespace exercise_59
 {
@@ -11,6 +12,11 @@ namespace exercise_59
     }
 
     // Write your method here:
+    public static int Greatest(int x, int y, int k){
+        int[] array = { x, y, k };
 
+        int min = array.Max();
+                return min;
+        }
   }
 }
