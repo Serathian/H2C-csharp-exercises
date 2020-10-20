@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Linq;
 
 namespace exercise_58
 {
@@ -11,6 +12,11 @@ namespace exercise_58
     }
 
     // Write your method here:
-    
+    public static int Smallest(int x, int y){
+        int[] array = { x, y };
+
+        int min = array.Min();
+                return min;
+        }
   }
 }
