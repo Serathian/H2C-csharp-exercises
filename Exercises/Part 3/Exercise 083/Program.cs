@@ -7,7 +7,15 @@ namespace exercise_83
   {
     public static void Main(string[] args)
     {
+     Console.WriteLine("Give a word");
+            string word = Console.ReadLine();
+            int writeTimes = 0;
 
+            while(writeTimes < 3)
+            {
+            Console.Write(word);
+            writeTimes++;
+            }
 
     }
 
