@@ -17,15 +17,8 @@ namespace exercise_68
         }
         list.Add(input);
       }
-      Console.WriteLine("From where?");
-            int start = list.IndexOf(Convert.ToInt32(Console.ReadLine()));
-            Console.WriteLine("Where to?");
-            int end = list.IndexOf(Convert.ToInt32(Console.ReadLine()) + 1);
-            
-
-            for(int i = start; i < end; i++){
-        Console.WriteLine(list[i]);
-            }
+        for(int i = 0; i < list.Count; i++){
+            Console.WriteLine(list[i]);}
     }
   }
 }
