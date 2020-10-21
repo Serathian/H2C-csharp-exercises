@@ -22,7 +22,14 @@ namespace exercise_79
       int searching = Convert.ToInt32(Console.ReadLine());
 
       // Implement the search functionality here
-
+      int pos = Array.IndexOf(array, searching);
+      if(pos > -1)
+            {            
+                Console.WriteLine($"{searching} was found");
+            }
+            else{
+            Console.WriteLine($"{searching} was not found!");
+            }
     }
 
   }
