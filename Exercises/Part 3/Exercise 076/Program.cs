@@ -7,23 +7,25 @@ namespace exercise_76
   {
     public static void Main(string[] args)
     {
-        List<string> strings = new List<string>();
+      List<int> numbers = new List<int>();
+        numbers.Add(3);
+        numbers.Add(2);
+        numbers.Add(6);
+        numbers.Add(-1);
 
-        strings.Add("First");
-        strings.Add("Second");
-        strings.Add("Third");
+    Console.WriteLine(Sum(numbers));
 
-        // Remember, this is how you print all the items in a list
-        strings.ForEach(Console.WriteLine);
+        numbers.Add(5);
+        numbers.Add(1);
 
-        RemoveLast(strings);
-        RemoveLast(strings);
-
-        strings.ForEach(Console.WriteLine);
+    Console.WriteLine(Sum(numbers));  
     }
-    public static void RemoveLast(List<string> strings) 
+    public static int Sum(List<int> numbers)
     {
-        strings.RemoveAt(strings.Count -1); 
+        int totalSum = 0;
+        for(int i = 0; i < numbers.Count; i++){
+            totalSum = totalSum + numbers[i];}
+            return totalSum;
     }
   }
 }
