@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 
 namespace exercise_74
 {
@@ -17,7 +18,16 @@ namespace exercise_74
         }
         list.Add(input);
       }
-      
+      Console.WriteLine("search for?");
+            string search = Console.ReadLine();
+
+            if(list.Contains(search) == true)
+            {            
+                Console.WriteLine($"{search} was found");
+            }
+            else{
+            Console.WriteLine($"{search} was not found!");
+            }
     }
   }
 }
