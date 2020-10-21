@@ -7,6 +7,7 @@ namespace exercise_65
   {
     public static void Main(string[] args)
     {
+
       List<string> list = new List<string>();
       while (true)
       {
@@ -16,8 +17,10 @@ namespace exercise_65
           break;
         }
         list.Add(input);
-      }
+        
 
+      }
+      Console.WriteLine(list.Count);
     }
   }
 }
