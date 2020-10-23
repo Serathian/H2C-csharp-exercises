@@ -15,7 +15,7 @@ namespace exercise_92
             while(more == true)
             {
                 //Grabbing data from user
-                Console.WriteLine("Enter name and age... i.e Jake,27");
+                Console.WriteLine("Enter name and birth year... i.e Jake,1993");
                 var input = Console.ReadLine();
 
                 if(input == "")
@@ -50,7 +50,9 @@ namespace exercise_92
                 //Splitting the data into name and age
                 var data = input.Split(',');
                 string name = data[0];
-                int age = Convert.ToInt32(data[1]);
+                int dateBirth = Convert.ToInt32(data[1]);
+
+                int age = 2020 - dateBirth;
 
                 //Add data to new people
                 people.Add(new People(name, age));
