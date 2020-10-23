@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace exercise_95
+namespace Exercise_095
 {
   class Program
   {
@@ -8,7 +8,7 @@ namespace exercise_95
     {
       // No need to code here.
       // Create Dog.cs and follow the instructions!
-
+      Dog bobby = new Dog("Bobby", "Pitbull", 4);
     }
   }
 }
