@@ -4,18 +4,17 @@ namespace Exercise_095
 {
   class Program
   {
-    
     public static void Main(string[] args)
     {
       // No need to code here.
       // Create Dog.cs and follow the instructions!
       Dog bobby = new Dog("Bobby", "Pitbull", 4);
+<<<<<<< Updated upstream
+       //Holy shit wtf is going on
+=======
       Console.WriteLine("");
-      
-      
+>>>>>>> Stashed changes
     }
-
-    
   }
 }
 
