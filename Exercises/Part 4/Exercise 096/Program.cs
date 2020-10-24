@@ -8,7 +8,7 @@ namespace exercise_96
     {
       // No need to code here.
       // Create Room.cs and follow the instructions!
-
+      Room testRoom = new Room();
     }
   }
 }
