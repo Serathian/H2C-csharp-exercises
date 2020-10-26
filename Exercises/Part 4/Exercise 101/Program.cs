@@ -7,7 +7,7 @@ namespace exercise_101
     public static void Main(string[] args)
     {
       Dalmatian spotty = new Dalmatian("Spot", 306);
-      Console.WriteLine(spotty.name + " is a very good dog. He has " + spotty.spots + " darker spots in his fur");
+      Console.WriteLine(spotty.Name + " is a very good dog. He has " + spotty.Spots + " darker spots in his fur");
     }
   }
 }
