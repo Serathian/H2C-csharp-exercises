@@ -10,13 +10,13 @@ namespace exercise_102
 
       while (!g.Full())
       {
-        Console.WriteLine("Not full! Value: " + g.value);
+        Console.WriteLine("Not full! Value: " + g.Value);
         g.Increase();
       }
 
-      Console.WriteLine("Full! Value: " + g.value);
+      Console.WriteLine("Full! Value: " + g.Value);
       g.Decrease();
-      Console.WriteLine("Not full! Value: " + g.value);
+      Console.WriteLine("Not full! Value: " + g.Value);
     }
   }
 }
