@@ -8,6 +8,7 @@ namespace exercise_99
     {
 
       DecreasingCounter counter = new DecreasingCounter(20);
+      counter.Decrement();
       counter.PrintValue();
 
       counter.Reset();
