@@ -3,9 +3,9 @@ using System.Dynamic;
 
 public class Timer
 {
-    private int Seconds { get; set; };
+    private int Seconds { get; set; }
 	private int SecondsLimit = 60;
-    private int Miliseconds { get; set; };
+    private int Miliseconds { get; set; }
 	private int MilisecondsLimit = 100;
 
 	public Timer()
