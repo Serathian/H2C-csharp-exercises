@@ -1,5 +1,5 @@
-ada 
-arto 
-leena 
+ada
+arto
+leena
 test
 heikki

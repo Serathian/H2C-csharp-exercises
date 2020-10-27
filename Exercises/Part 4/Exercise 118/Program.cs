@@ -1,5 +1,8 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.IO;
+using System.Linq;
+using System.Runtime.CompilerServices;
 
 namespace exercise_118
 {
@@ -13,10 +16,12 @@ namespace exercise_118
 
       // DO NOT TOUCH THE CODE ABOVE!
       // implement reading the file here;
-      
+        List<string> names = File.ReadAllLines($@"C:\Serathian\H2C-csharp-exercises\Exercises\Part 4\Exercise 118\{file}").ToList();
 
-
-
+            foreach (string name in names) 
+            {
+                name.Trim();
+            }
       // DO NOT TOUCH THE CODE BELOW!
       Console.WriteLine("");
 
