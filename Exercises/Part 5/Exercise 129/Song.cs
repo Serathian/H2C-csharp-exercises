@@ -23,8 +23,13 @@ namespace exercise_129
     // BEGIN SOLUTION
     public override bool Equals(object compared)
     {
- 
-      return false;
+            bool sameName = false;
+            if(this.ToString() == compared.ToString())
+            {
+                sameName = true;
+            }
+            
+      return sameName;
     }
     // END SOLUTION
 
