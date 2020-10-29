@@ -1,3 +1,5 @@
+using System.Diagnostics.Eventing.Reader;
+
 namespace exercise_131
 {
   public class Item
@@ -16,14 +18,20 @@ namespace exercise_131
       return this.identifier + ": " + this.name;
     }
 
-    public override bool Equals(object compared)
-    {
-
-      //compare with Item.identifier
-
-      return false;
-      }
-    }
+        public override bool Equals(object compared)
+        {
+            Item newItem = compared as Item;
+            if (this.identifier == newItem.identifier)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+            //compare with Item.identifier
+        }
+    
 
   }
 }
