@@ -18,11 +18,26 @@ namespace exercise_130
     // BEGIN SOLUTION
     public override bool Equals(object compared)
     {
-
-      return false;
+        Book newBook = compared as Book;
+        if (this.name == newBook.name)
+        {
+            if (this.publicationYear == newBook.publicationYear)
+	        {
+                return true;
+            }
+            else
+            {
+                return false;    
+            }
+        }
+        else
+        {
+        return false;
+        }
+            
     }
     // END SOLUTION
-  }
+    }
 
 
 }
